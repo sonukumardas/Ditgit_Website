@@ -1,0 +1,155 @@
+/*Mobile devices*/
+@media only screen and (max-width:480px) {
+    .header {
+        height: 25vh;
+    }
+
+    .link .nav-link {
+        padding-left: 50px;
+    }
+
+    .about-course {
+        padding: 0;
+    }
+
+    .col-12 {
+
+        padding-top: 30px;
+    }
+
+    .counter-section {
+
+        padding: 6px;
+    }
+
+    .text-center {
+        padding-top: 50px;
+    }
+
+    .cards-section {
+        padding: 50px 5px;
+    }
+
+    .bg-shape-one {
+        left: -5px;
+    }
+
+    .bg-shape-two {
+        right: -3px;
+    }
+
+    .excel-section {
+        padding: 0;
+    }
+
+    .learner {
+        padding: 34px;
+    }
+
+
+    .testimonial {
+        text-align: center;
+    }
+
+    .profile {
+        display: inline-flex;
+    }
+
+    .dots {
+        justify-content: center;
+    }
+
+
+
+
+}
+
+/*Tabs or IPads*/
+
+@media only screen and (min-width:480px) and (max-width:768px) {
+
+    .header {
+        height: 35vh;
+    }
+
+    .sub-tab-container {
+        display: flex;
+    }
+
+    .bg-shape-one {
+        left: 12px;
+    }
+
+    .bg-shape-two {
+        right: 12px;
+    }
+
+    .counter-section {
+
+        padding: 15px;
+    }
+
+    .learner {
+        padding: 11px;
+    }
+
+}
+
+/*Laptops or small-size screen*/
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .header {
+        height: 25vh;
+    }
+
+    .bg-shape-one {
+        left: 12px;
+    }
+
+    .bg-shape-two {
+        right: 12px;
+    }
+
+    .counter-section {
+
+        padding: 15px;
+    }
+
+
+    .card-body {
+        padding: 0px;
+    }
+
+    .learner {
+        padding: 11px;
+    }
+
+}
+
+
+/*Desktop or large-size screen*/
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+
+    .bg-shape-one {
+        left: 19px;
+    }
+
+    .bg-shape-two {
+        right: 19px;
+    }
+
+    .counter-section {
+
+        padding: 15px;
+    }
+
+
+    .testimonial {
+        padding: 20px;
+    }
+
+   
+
+
+
+}

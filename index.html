@@ -1,0 +1,944 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <title>Digit Institite</title>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+    <meta name="author" content="Sonu" />
+    <meta name="description" content="" />
+    <meta name="keyword" content="" />
+    <meta http-equiv="refresh" content="500">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="icons/digit-icon-logo.png" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <!-- Font Family -->
+    <link rel="stylesheet" href="fonts/Poppins-Regular.ttf" />
+    <!--icons-->
+    <link rel="stylesheet" href="icons/css/all.css" />
+    <link rel="stylesheet" href="icons/css/all.min.css" />
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
+
+
+
+</head>
+
+<body>
+
+    <!--Top-bar Section Starts-->
+    <section class="background-image-section">
+
+        <div class="navbar bg-body-transparent fixed-top border-line ">
+            <div class="container">
+                <a class="navbar-brand" href="">
+                    <img class="d-inline-block align-text-top" src="icons/digit logo.png" alt="Logo" width="100px"
+                        height="50px" />
+                </a>
+                <button class="btn btn-default">Book a Demo</button>
+            </div>
+        </div>
+
+        <div class="header">
+            <h2>Software Testing Course Content</h2>
+        </div>
+
+    </section>
+
+    <!--Top-bar Section ends-->
+
+    <!--list-bar Section starts-->
+
+    <section class="nav-section" style="position: sticky; top: 76px;">
+        <div class="link">
+            <ul class="nav  justify-content-center ">
+                <li class="nav-item">
+                    <a class="nav-link " href="#section1">Study Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Learning Path</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section3">Why We Excel</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#section4">Learner Testimonials</a>
+                </li>
+            </ul>
+
+        </div>
+    </section>
+    <!--list-bar Section ends-->
+
+    <!--About us start-->
+
+    <section class="about-us" id="section1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="about-content">
+                        <h4>Expert training for Aspiring Software Testing</h4>
+                        <h2>Master the art with Software Testing with expert Guidance</h2>
+                        <p> Software testing is the process of evaluating and verifying that a software product or
+                            application does what it's supposed to do. The benefits of good testing include preventing
+                            bugs and improving performance. Verify and validate application quality to ensure it meets
+                            user requirements.It can provide objective, independent information about the
+                            quality of software and the risk of its failure to a user or sponsor.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="about-img">
+                        <img src="images/About us.jpg" ; alt="" width="100%"   />
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!--About us ends-->
+
+
+    <!---Learning path Manual Testing & Automation testing start-->
+
+    <section class="about-course" id="section2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+                    <h6 class="title text-center">FROM FUNDEMENTALS TO MASTERY IN SOFTWARE TESTING</h6>
+                    <h4 class="sub text-center">Innovate : Manual Testing & Automation Testing</h4>
+
+
+                    <!--manual testing start--->
+
+                    <div class="accordion" id="accordion1">
+                        <div class="accordion-title" onclick="toggleAccordion('accordion1')">
+                            <img src="images/manual-testing.jpg" alt="Logo" class="accordion-icon">
+                            <div class="accordion-text">
+                                <h3>Manual Testing</h3>
+                            </div>
+                            <span class="accordion-duration"></span>
+                            <span class="accordion-arrow">V</span>
+                        </div>
+                        <div class="sub-tab-container">
+                            <div class="sub-tab active" onclick="showContent('Overview', 'accordion1')">Overview</div>
+                            <div class="sub-tab" onclick="showContent('Introduction', 'accordion1')">Introduction</div>
+                            <div class="sub-tab" onclick="showContent('Life_Cycle', 'accordion1')">Life Cycle</div>
+                            <div class="sub-tab" onclick="showContent('Methodologies', 'accordion1')">Methodologies
+                            </div>
+                            <div class="sub-tab" onclick="showContent('Design_Techniques', 'accordion1')">Design
+                                Techniques
+                            </div>
+                            <div class="sub-tab" onclick="showContent('Levels', 'accordion1')">Levels of Testing</div>
+                            <div class="sub-tab" onclick="showContent('Phases', 'accordion1')">Phases & Principles</div>
+                            <div class="sub-tab" onclick="showContent('QA_QC', 'accordion1')">QA & QC & Testing</div>
+                            <div class="sub-tab" onclick="showContent('Real_time_project', 'accordion1')">Real time/Live
+                                Project</div>
+                            <div class="sub-tab" onclick="showContent('OutComes', 'accordion1')">OutComes</div>
+                        </div>
+
+                        <!-- Software Development Overview -->
+                        <div class="sub-content active" id="Overview-accordion1">
+                            <h2>Software Testing Overview</h2>
+                            <p>Testing is a critical phase of Software Development Life Cycle. Manual testing is the
+                                process in which the defects are identified, isolated, subjected for justification and
+                                ensure that the product is defect-free, in-order to produce quality product.
+                                However, it requires the necessary knowledge such as about different types of manual
+                                testing, software development life cycle. In this course you will learn everything that
+                                is
+                                required from a good manual tester with practical session.</p>
+                            <p>✔ To understand what is testing?</p>
+                            <p>✔ Advantages of Manual testing</p>
+                            <p>✔ Disadvantages of Manual testing</p>
+                        </div>
+
+                        <!-- Software Development Introduction -->
+                        <div class="sub-content" id="Introduction-accordion1">
+                            <h2>Software Testing Introduction</h2>
+                            <p>In this module you learn about Importance of testing. Why Testers need
+                                industry, software program/application/product: meets the business and
+                                technical requirements that guided its design and development works as
+                                expected.</p>
+                            <p>✔ What is testing?</p>
+                            <p>✔ Importance of testing</p>
+                            <p>✔ Roles and Responsibilities</p>
+                            <p>✔ Principles of software testing</p>
+                            <p>✔ What is Quality?</p>
+                            <p>✔ Differences between Manual and Automation
+                                Testing</p>
+                        </div>
+                        <!-- Software Development Life Cycle -->
+                        <div class="sub-content" id="Life_Cycle-accordion1">
+                            <h2> Software Development Life Cycle </h2>
+                            <p>In this module you learn about development procedure. SDLC stands for
+                                Software development life cycle. It is a process that describes how to develop,
+                                design and maintain the software project ensuring that all the functional & user
+                                requirement, goals and objective are met.
+                            </p>
+                            <div class="row Content-text">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <h4>SDLC Phases</h4>
+                                    <p>✔ Requirements Phase</p>
+                                    <p>✔ Analysis Phase</p>
+                                    <p>✔ Design phase</p>
+                                    <p>✔ Coding Phase</p>
+                                    <p>✔ Testing phase</p>
+                                    <p>✔ Delivery and Maintenance Phase</p>
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <h4>SDLC Models</h4>
+                                    <p>✔ Waterfall Mode</p>
+                                    <p>✔ V Model</p>
+                                    <p>✔ Agile Model.</p>
+                                    <p>✔ Prototype Model</p>
+                                    <p>✔ Spiral Model</p>
+                                    <p>✔ Hybrid Model</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Software Testing Methodologies -->
+                        <div class="sub-content" id="Methodologies-accordion1">
+                            <h2> Software Testing Methodologies </h2>
+                            <p>In this module you learn about deferent types of software testing. Software
+                                Testing Methodology is defined as strategies and testing types used to
+                                certify that the application under test meets client expectations. </p>
+                            <p>✔ White Box Testing</p>
+                            <p>✔ Black Box Testing</p>
+                            <p>✔ Grey Box Testing</p>
+                        </div>
+
+                        <div class="sub-content" id="Design_Techniques-accordion1">
+                            <h2>Test Case Design Techniques</h2>
+                            <p>In this module you learn design test cases in such a way that we get the
+                                maximum coverage using an optimal set of Test cases. Focus on highlighting the
+                                various Methods and Techniques in designing test cases for both Black Box
+                                Testing and White Box testing. </p>
+                            <div class="row Content-text">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <h4>Static Techniques:</h4>
+                                    <p>✔ Informal Reviews</p>
+                                    <p>✔ Walkthroughs</p>
+                                    <p>✔ Technical Reviews</p>
+                                    <p>✔ Inspection</p>
+
+                                    <h4>Structural Techniques</h4>
+                                    <p>✔ Statement Coverage Testing</p>
+                                    <p>✔ Branch Coverage Testing</p>
+                                    <p>✔ Path Coverage Testing</p>
+                                    <p>✔ Conditional Coverage Testing</p>
+                                    <p>✔ Loop Coverage Testing</p>
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <h4>Black Box Techniques</h4>
+                                    <p>✔ Boundary Value Analysis</p>
+                                    <p>✔ Equivalence Class Partition</p>
+                                    <p>✔ State Transition Technique</p>
+                                    <p>✔ Decision Table</p>
+                                    <p>✔ Decision Table</p>
+
+                                    <h4>Experienced Based Techniques</h4>
+                                    <p>✔ Error guessing</p>
+                                    <p>✔ Exploratory testing</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Levels of Testing -->
+                        <div class="sub-content" id="Levels-accordion1">
+                            <h2>Levels of Testing </h2>
+                            <p>In this module you learn about levels of testing are frequently grouped by where
+                                they are added in the software development process, or by the level of specificity
+                                of the test. </p>
+                            <p>✔ Unit Testing</p>
+                            <p>✔ Integration Testing</p>
+                            <p>✔ System Testing(Functional & Non-Functional
+                                Testing)</p>
+                            <p>✔ User Acceptance Testing</p>
+                        </div>
+
+                        <!--  Phases & Principles of Software Testing Life Cycle -->
+                        <div class="sub-content" id="Phases-accordion1">
+                            <h2> Phases & Principles of Software Testing Life Cycle </h2>
+                            <p>In this module learn about in detail description of Test Life Cycle, importance
+                                of Test Plan roles and responsibilities of Test Manager, Test Lead, Test
+                                Engineer. </p>
+                            <div class="row Content-text">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <h4>1. Test Planning</h4>
+                                    <p>✔ Object</p>
+                                    <p>✔ Scope of Testing</p>
+                                    <p>✔ Schedule.</p>
+                                    <p>✔ Approach</p>
+                                    <p>✔ Roles & Responsibilities.</p>
+                                    <p>✔ Assumptions</p>
+                                    <p>✔ Risks & Mitigations</p>
+                                    <p>✔ Test Automation.</p>
+                                    <p>✔ Deliverables</p>
+
+                                    <h4>2. Requirements Analysis/Design</h4>
+                                    <p>✔ Understand the requirements</p>
+                                    <p>✔ Prepare Traceability Matrix</p>
+
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <h4>3.Test Cases Design</h4>
+                                    <p>✔ Write Test cases</p>
+                                    <p>✔ Review Test cases</p>
+                                    <p>✔ Test Cases Template</p>
+                                    <p>✔ Types of Test Cases</p>
+                                    <p>✔ Difference between Test Scenarios and Test Cases</p>
+
+                                    <h4>4.Test Execution</h4>
+                                    <p>✔ Execute test cases</p>
+                                    <p>✔ Defect Tracking and Reporting</p>
+                                    <p>✔ Types of Bugs.</p>
+                                    <p>✔ Identifying the Bugs.</p>
+                                    <p>✔ Bug/Defect Life Cycle</p>
+                                    <p>✔ Reporting the Bugs</p>
+                                    <p>✔ Severity and priority</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- QA & QC & Testing -->
+                        <div class="sub-content" id="QA_QC-accordion1">
+                            <h2> QA & QC & Testing </h2>
+                            <p>In this module you learn about QA & QC
+                                and How to log bugs in Project
+                                management tool, how to give severity,priority to bugs </p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ What is Quality Assurance?</p>
+                                <p>✔ What is Quality Control?</p>
+                                <p>✔ Differences of QA & QC & Testing</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Real time/Live Project -->
+                        <div class="sub-content" id="Real_time_project-accordion1">
+                            <h2> Real time/Live Project </h2>
+                            <p> </p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ Resume Preparation guidance</p>
+                                <p>✔ Mock interviews/Test and assignments</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Knowledge Based Concepts -->
+                        <div class="sub-content" id="OutComes-accordion1">
+                            <h2>OutComes</h2>
+                            <p> At the end of this course, students will be able to understand the complete
+                                cycle of Manual Testing. <br><br>
+                                Students will be seeing the live project and will be able to start the
+                                career in the Software Quality Assurance filed.</p>
+                            <p>✔ understand what is testing</p>
+                            <p>✔ To learn major concepts of the testing
+                                methodologies</p>
+                            <p>✔ To know different approaches to Testing</p>
+                            <p>✔ To understand of the types of testing</p>
+                            <p>>✔ To create and m anage test cases and defect
+                                profiles</p>
+                            <p>✔ To build strategies to track testing processes in
+                                the bug tracking systems</p>
+                            <p>✔ To do document of the test report in the testing
+                                enclosure document</p>
+                        </div>
+                    </div>
+
+                    <!--manual testing ends-->
+
+
+
+                    <!--Software testing start--->
+
+                    <div class="accordion" id="accordion2">
+                        <div class="accordion-title" onclick="toggleAccordion('accordion2')">
+                            <img src="images/software-testing.jpg" alt="Logo" class="accordion-icon">
+                            <div class="accordion-text">
+                                <h3>Automation Testing</h3>
+                            </div>
+                            <span class="accordion-duration"></span>
+                            <span class="accordion-arrow">V</span>
+                        </div>
+
+                        <div class="sub-tab-container">
+                            <div class="sub-tab active" onclick="showContent('Introduction', 'accordion2')">Introduction
+                            </div>
+                            <div class="sub-tab" onclick="showContent('Selenium', 'accordion2')">Selenium</div>
+                            <div class="sub-tab" onclick="showContent('Java', 'accordion2')">Java</div>
+                            <div class="sub-tab" onclick="showContent('Object_Oriented_Programing', 'accordion2')">
+                                Object Oriented Programing</div>
+                            <div class="sub-tab" onclick="showContent('WebDriver', 'accordion2')">Selenium
+                                WebDriver
+                            </div>
+                            <div class="sub-tab" onclick="showContent('Framework', 'accordion2')">Framework</div>
+                            <div class="sub-tab" onclick="showContent('TestNG', 'accordion2')">TestNG
+                                Framework</div>
+                            <div class="sub-tab" onclick="showContent('Page_Object_Model', 'accordion2')">Page Object
+                                Model</div>
+                            <div class="sub-tab" onclick="showContent('Hybrid', 'accordion2')">Hybrid</div>
+                            <div class="sub-tab" onclick="showContent('Automation_Project', 'accordion2')">Real
+                                time/Live Project</div>
+                            <div class="sub-tab" onclick="showContent('Automation_Knowledge', 'accordion2')">Knowledge
+                                Based Concepts</div>
+                        </div>
+
+                        <!-- Introduction  -->
+                        <div class="sub-content " id="Introduction-accordion2">
+                            <h2>Software Testing Introduction</h2>
+                            <p>In this module, we can learn about automation testing and when to automate the
+                                application. We can also look into different automation tools in the market, and we will
+                                discuss
+                                about advantages and disadvantages of automation tool.</p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ What is Automation testing</p>
+                                <p>✔ Advantages of Automation testing</p>
+                                <p>✔ Disadvantages of Automation testing</p>
+                            </div>
+                        </div>
+
+                        <!-- Introduction to Selenium -->
+                        <div class="sub-content" id="Selenium-accordion2">
+                            <h2>Software Testing Selenium</h2>
+                            <p>In this module, we will discuss briefly about selenium tool and history of it. We
+                                will compare
+                                seleniumwith other tool like QTP and we can look into major components in
+                                selenium
+                                like Selenium
+                                IDE, Selenium RC, Selenium Webdriver and Selenium Grid.</p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+
+                                <p>✔ History of Selenium</p>
+                                <p>✔ Why Selenium too.</p>
+                                <p>✔ Differences between Selenium and other tools</p>
+                                <p>✔ Different components in Selenium</p>
+                            </div>
+                        </div>
+
+                        <!-- Introduction to Java -->
+                        <div class="sub-content" id="Java-accordion2">
+                            <h2> Java </h2>
+                            <p>In this module, we will talk about java and features of java, and what is JVM and
+                                JRM. We will discuss about different types of data types and variables, and control
+                                statementsn (loops like for,while, do while, if ) with example programs. What is string
+                                and different
+                                methods in strings. We will discuss about one dimensional array and two dimensional
+                                array
+                                along with examples and about Operators and with on other functions
+                            </p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ Introduction to java</p>
+                                <p>✔ Installation of Eclipse IDE</p>
+                                <p>✔ Data types</p>
+                                <p>✔ Variables</p>
+                                <p>✔ Operations</p>
+                                <p>✔ Conditional Statements</p>
+                                <p>✔ Strings</p>
+                                <p>✔ Arrays</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Object Oriented Programing -->
+                        <div class="sub-content" id="Object_Oriented_Programing-accordion2">
+                            <h2> Object Oriented Programing </h2>
+                            <p>In this module, we discuss about class and method. How to create Object and call
+                                the methods. What is constructor and when to use constructor What is package and how to
+                                access classes across packages. What are the different access modifiers available in
+                                java (Public,
+                                Private, Protected) and how to use them. How to handle exception andwhat is try and
+                                catch block,
+                                differences between throw and throws, final and finally, and different kinds of
+                                exceptions. How to
+                                read and write text file and how to read properties files, and how to read and write
+                                excel
+                                sheet using apache poi. </p>
+                            <div class="row Content-text">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+
+                                    <p>✔ Class</p>
+                                    <p>✔ Method(Overloading’s and Overriding
+                                        Functions)</p>
+                                    <p>✔ Object</p>
+                                    <p>✔ Constructor</p>
+                                    <p>✔ Inheritance</p>
+
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+
+                                    <p>✔ Packages</p>
+                                    <p>✔ Access Modifiers</p>
+                                    <p>✔ Exception Handling</p>
+                                    <p>✔ File Handling</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Introduction to Selenium WebDriver -->
+                        <div class="sub-content" id="WebDriver-accordion2">
+                            <h2>Selenium WebDrivers</h2>
+                            <p>In this module, we will talk about webdriver and its features, and we will write
+                                a sample program for better understanding. In this module, we talk about basic features
+                                of
+                                webdriver like get and navigationfunctions, different types of Waits, taking screenshot
+                                and etc</p>
+                            <div class="row Content-text">
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <p>✔ First Program on selenium- Launch the browser</p>
+                                    <p>✔ Verify Page title , Current URL</p>
+                                    <p>✔ Navigation, Get, Switch Commands</p>
+                                    <p>✔ Locators </p>
+                                    <p>✔ Radio button and Checkbox ,Text box</p>
+                                    <p>✔ Handling Dropdown</p>
+                                    <p>✔ Cross Browsing using selenium TestNG</p>
+                                    <p>✔ Handling IFrames.</p>
+                                </div>
+                                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                    <p>✔ Handling Dropdown</p>
+                                    <p>✔ Handling File upload</p>
+                                    <p>✔ Handling Drag and Drop</p>
+                                    <p>✔ Handling Mouse Hover, Keyword Events using Action class</p>
+                                    <p>✔ How to open Multiple windows , Tabs</p>
+                                    <p>✔ How to take screenshot ,how to read a data from Excel file , Upload a file</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  Framework -->
+                        <div class="sub-content" id="Framework-accordion2">
+                            <h2>Framework </h2>
+                            <p>In this module, we will discuss about very important topic i.e., frameworks </p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+
+                                <p>✔ What is Framework</p>
+                                <p>✔ Types of Framework</p>
+                                <p>✔ Use of Framework.</p>
+                            </div>
+
+                        </div>
+
+                        <!-- TestNG Framework -->
+                        <div class="sub-content" id="TestNG-accordion2">
+                            <h2> TestNG Framework </h2>
+                            <p>In this module, we will discuss about TestNG, what is the advantages of testng
+                                over Junit. We will look atdifferent annotations and how to use them in selenium, and
+                                parallel
+                                execution of test cases and creating maven project and adding dependencies to pom.xml
+                                file
+                                and how to run maven project. </p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ Configure Eclipse with Selenium and TestNG</p>
+                                <p>✔ New- Installation of TestNG</p>
+                                <p>✔ Create First TestNG Program and Execute</p>
+                            </div>
+                        </div>
+
+                        <!-- Page Object Model -->
+                        <div class="sub-content" id="Page_Object_Model-accordion2">
+                            <h2>Page Object Model</h2>
+                            <p> In this module, we will discuss about TestNG, what is the advantages of testng
+                                over Junit. We will look atdifferent annotations and how to use them in selenium, and
+                                parallel
+                                execution of test cases and creating maven project and adding dependencies to pom.xml
+                                file
+                                and how to run maven project..</p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ What is Page Object Model</p>
+                                <p>✔ When to use POM </p>
+                                <p>✔ Examples to POM</p>
+                                <p>✔ POM using TestNG, Page factory</p>
+                                <p>✔ Sample Examples for POM</p>
+
+                            </div>
+                        </div>
+
+                        <!-- Hybrid Framework -->
+                        <div class="sub-content" id="Hybrid-accordion2">
+                            <h2> Hybrid Framework </h2>
+                            <p>In this module, we will discuss about Hybrid framework with sample project
+                                structure</p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ What is data driven/Keyword driven framework</p>
+                                <p>✔ Write Excel using Apache poi/JXL</p>
+                                <p>✔ Read Excel using Apache poi/JXL</p>
+                                <p>✔ Goals to be achieve in data driven framework</p>
+                                <p>✔ Creating a Framework Structure</p>
+                            </div>
+                        </div>
+
+                        <!-- Real time/Live Project -->
+                        <div class="sub-content" id="Automation_Project-accordion2">
+                            <h2> Real time/Live Project </h2>
+                            <p></p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ Resume Preparation guidance</p>
+                                <p>✔ Mock interviews/Test and assignments</p>
+                            </div>
+                        </div>
+
+                        <!-- Knowledge Based Concepts -->
+                        <div class="sub-content" id="Automation_Knowledge-accordion2">
+                            <h2> Knowledge Based Concepts </h2>
+                            <p>At the end of the course participants will be able....</p>
+                            <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                                <p>✔ Understand about automation testing</p>
+                                <p>✔ When and why to use automation testing</p>
+                                <p>✔ Understand about java programming language</p>
+                                <p>✔ About selenium components and how to use
+                                    them on web applications</p>
+                                <p>✔ Understand about Project management tools</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!--software testing ends-->
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---Learning path manual & Software Testing ends-->
+
+
+    <!---counters starts-->
+
+    <div class="counter-section">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="four col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+
+                    <div class="counter-box  ">
+                        <img src="icons/counter-logo/student.png" alt="Students Trained">
+                    </div>
+
+                    <div class="counter-content  ">
+                        <h3 class="count-numbers timmer" data-to="1000+" data-speed="8500">1000+</h3>
+                        <h6 class="count-name">Students Trained</h6>
+                    </div>
+
+                </div>
+
+
+                <div class="four col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 ">
+                    <div class="counter-box  ">
+                        <img src="icons/counter-logo/realtime-expert.png" alt="Realtime Experts">
+                    </div>
+
+                    <div class="counter-content ">
+                        <h3 class="count-numbers timmer" data-to="50+" data-speed="8500">50+</h3>
+                        <h6 class="count-name">Realtime Experts</h6>
+                    </div>
+                </div>
+
+
+                <div class="four col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="counter-box   ">
+                        <img src="icons/counter-logo/student-placed.png" alt="Students Placed">
+                    </div>
+
+                    <div class="counter-content  ">
+                        <h3 class="count-numbers timmer" data-to="1200+" data-speed="8500">1200+</h3>
+                        <h6 class="count-name">Students Placed</h6>
+                    </div>
+                </div>
+
+
+                <div class="four col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12">
+                    <div class="counter-box   ">
+                        <img src="icons/counter-logo/customer-support.png" alt="Support Avaliable">
+                    </div>
+
+                    <div class="counter-content  ">
+                        <h3 class="count-number">24/7</h3>
+                        <h6 class="count-name">Support Avaliable</h6>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!---counters starts-->
+
+
+    <!--cards section starts-->
+
+    <!--cards section starts-->
+    <section class="cards-section">
+        <div class="container">
+            <div class="heading text-center">
+                <h6 class="title-aboutus">WHAT WE'RE GREAT AT</h6>
+                <h4 class="sub-heading">Our Expertise</h4>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card/job-oriented.png" class="card-img-top"
+                            alt="Job Oriented Intensive Program">
+                        <div class="card-body">
+                            <h5 class="card-title">Job Oriented Intensive Program</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card/pc.png" class="card-img-top" alt="Structured,industry-vetted curriculum">
+                        <div class="card-body">
+                            <h5 class="card-title">Structured,industry-vetted curriculum</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card/teaching.png" class="card-img-top" alt="Low Student - Teacher Ratio">
+                        <div class="card-body">
+                            <h5 class="card-title">Low Student - Teacher Ratio</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card/live-classes.png" class="card-img-top" alt="100% Live,classroom & Online">
+                        <div class="card-body">
+                            <h5 class="card-title">100% Live,classroom & Online</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card/interview.png" class="card-img-top" alt="Mock Test Mock Interview">
+                        <div class="card-body">
+                            <h5 class="card-title">Mock Test Mock Interview</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white text-center align-items-center">
+                        <img src="images/card/project.png" class="card-img-top"
+                            alt="Intensive practical experience with projects">
+                        <div class="card-body">
+                            <h5 class="card-title">Intensive practical experience with projects</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-shapes">
+            <div class="bg-shape-one">
+                <img class="shape" src="images/shape-1.png" alt="bg-shape-one" />
+            </div>
+            <div class="bg-shape-two">
+                <img class="shape" src="images/shape-2.png" alt="bg-shape-two" />
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--cards section ends-->
+
+
+    <!--Why to EXCEL start-->
+    <section class="excel-section" id="section3">
+
+        <div class="container">
+            <div class="row ">
+
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="excel-content">
+                        <h4>WHY WE EXCEL</h4>
+                        <h3>Elevate Your Software Testing Skills with DIGIT Institute</h3>
+                        <p>At DIGIT Institute ,we are committed to providing top-notch education and training
+                            in Software Testing.Here's why our course stands out:
+                        </p>
+                    </div>
+
+
+                    <div class="icon-block">
+                        <img class="icons" src="icons/excel-icons/excel-logo1.png" alt="logo" />
+                        <div class="icon-block-content">
+                            <h5 class="sub-heading">Expert Instructors</h5>
+                            <p class="para">Our faculty comprises industry veterans with extensive experience in Manual
+                                testing.</p>
+                        </div>
+                    </div>
+                    <div class="icon-block">
+                        <img class="icons" src="icons/excel-icons/excel-logo2.png" alt="logo" />
+                        <div class="icon-block-content">
+                            <h5 class="sub-heading">Comprehensive Curriculum</h5>
+                            <p class="para">We cover everything fron basic principles to advanced techniques,
+                                ensuring you gain a deep and broad understanding of Manual testing</p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+                    <div class="excel-img">
+                        <img src="images/excel-image.jpg" ; alt="" width="100%" />
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Why to EXCEL ends-->
+
+
+    <!--review section start-->
+
+    <section class="learner" id="section4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <div class="learner-header">
+                        <p><span>Learner Testimonials</span></p>
+                        <h2>What Students Say About Us</h2>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="slide-wrapper">
+                        <div class="slider">
+                            <div class="testimonial active">
+                                <div class="testimonial-content">
+                                    DIGIT Institute is one of the best platform for learning and improving technical
+                                    skills. 2 months days I just joined in DIGIT for Java Course. I just learnt many
+                                    things during this course and the management and staff helped me a lot to prepare in
+                                    that institute well. At last I prepared well and I secured a job. Thank you for
+                                    Everything DIGIT institute.
+                                </div>
+                                <div class="profile">
+                                    <img src="icons/review-section/review.png" alt="Rajesh Sunkara">
+                                    <h5>Rajesh Sunkara</h5>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="testimonial-content">
+                                    Thank you very much Krishna sir for helping. Praneeth sir explained on Microservices
+                                    very well real time standards. I would strongly recommend for Praneeth sir Java
+                                    Microservices particularly for teaching in very simple way of complex topics.
+                                </div>
+                                <div class="profile">
+                                    <img src="icons/review-section/review-student-2.png" alt="Devender">
+                                    <h5>Devender</h5>
+                                </div>
+                            </div>
+                            <div class="testimonial">
+                                <div class="testimonial-content">
+                                    Best institute for coaching. Not over crowded, one to one interaction in class.
+                                    Flexible timing,
+                                    attentive staff and Knowledgeable.If you have any problem they'll be there. U can
+                                    ask doubts
+                                    without hesitation. U can practice there it self after the class.
+                                </div>
+                                <div class="profile">
+                                    <img src="icons/review-section/review-ing-3.png" alt="Deepika">
+                                    <h5>Deepika</h5>
+                                </div>
+                            </div>
+                            <div class="dots">
+                                <div class="dot active" onclick="showTestimonial(0)"></div>
+                                <div class="dot" onclick="showTestimonial(1)"></div>
+                                <div class="dot" onclick="showTestimonial(2)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <!--review section ends-->
+
+
+    <!--social media starts-->
+
+    <section class="reach_us">
+        <div class="container">
+            <div class="custom-shape-divider-top-1717942597">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="  justify-content-center align-items-center text-center">
+                <div>
+                    <img class="image justify-content-center" src="icons/digit logo.png" alt="logo" />
+                </div>
+                <div class="social-media d-flex justify-content-center align-items-center">
+                    <a class="pad" href="https://www.facebook.com/DIGITinstitute" target="_blank"><i
+                            class="fab fa-facebook" style="color: #939393;"></i></a>
+                    <a class="pad" href="https://twitter.com/digitinstitute" target="_blank"><i class="fab fa-twitter"
+                            style="color: #939393;"></i></a>
+                    <a class="pad" href="https://www.instagram.com/digitinstitute.in?igsh=dDA5cXRkOWFqMmQw"
+                        target="_blank"><i class="fab fa-instagram" style="color: #939393;"></i></a>
+                    <a class="pad" href="https://www.linkedin.com/company/digit-institute/" target="_blank"><i
+                            class="fab fa-linkedin" style="color: #939393;"></i></a>
+                    <a class="pad" href="https://youtube.com/@digitinstitute8281?si=2We97u7foPiX1vEz" target="_blank"><i
+                            class="fab fa-youtube" style="color: #939393;"></i></a>
+                </div>
+                <p class="text">ⓒ 2024. All Rights Reserved By DIGIT Institute</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--social media ends-->
+
+
+
+
+
+
+    <!---java script-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <script src="js/main.js"></script>
+    <script src="icons/js/all.js"></script>
+    <script src="icons/js/all.min.js"></script>
+    <script src=" bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+
+
+<html>
